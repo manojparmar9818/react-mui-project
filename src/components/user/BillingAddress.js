@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Avatar, AvatarGroup, Box, Card, CardContent, Checkbox, FormControl, FormControlLabel, Grid, InputLabel, MenuItem, Select, Stack, TextField, Typography } from '@mui/material'
+import { Box, Checkbox, FormControl, FormControlLabel, InputLabel, MenuItem, Select, TextField } from '@mui/material'
 
 import ContentSection from './ContentSection'
 import Title from './Title'

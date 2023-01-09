@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Card, Stack, styled } from '@mui/material'
+import { Box, Button, Card, Stack, styled } from '@mui/material'
 import React, { useState } from 'react'
 import ContentSection from './ContentSection'
 import Title from './Title'
@@ -58,7 +58,7 @@ export const Invitations = () => {
                         </Box>
                     </>
                     : 
-                    <h1>fhfjlkfjhklfjhfh</h1>
+                    <Box>This is the another view</Box>
                     }
                     
                 </Card>

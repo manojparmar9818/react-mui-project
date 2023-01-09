@@ -1,6 +1,5 @@
 import React from 'react'
-import { FormControl, FormGroup, FormHelperText, FormLabel, Grid, Input, Stack, Box, TextField } from '@mui/material'
-import CommonInputField from './CommonInputField'
+import { Box, TextField } from '@mui/material'
 const formData = [
     {
         id: 'first__name',

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormControl, FormHelperText, FormLabel, styled, Input, InputLabel, InputBase } from '@mui/material'
+import { FormControl, styled, InputLabel, InputBase } from '@mui/material'
 const CustomInputField = styled(InputBase)(({ theme }) => ({
     width: '70%',
     'label + &': {
@@ -23,7 +23,7 @@ const CustomInputField = styled(InputBase)(({ theme }) => ({
 const CustomLabel = styled(InputLabel)({
     position: 'static', transform: 'none', fontSize: 14, overflow: 'unset', maxWidth: '100%', width: '30%'
 })
-function CommonInputField({ value, id, name, label, helperText, placeholder, type, onChange, onClick, defaultValue, children }) {
+function CommonInputField({ value, id, name, label, placeholder, type, onChange, defaultValue, children }) {
     return (
         <FormControl sx={{display: 'flex', flexDirection: 'row', gap: 1, alignItems: 'center', '& :nth-of-child(even) > label': {width: '50%'}}}>
             <CustomLabel shrink htmlFor="my-input">{label}:</CustomLabel>
