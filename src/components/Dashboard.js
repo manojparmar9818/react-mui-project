@@ -1,15 +1,17 @@
 import React from 'react'
-import Header from './Header'
 import MainHeading from './MainHeading'
-import OtherDetails from './user/OtherDetails'
+import NewHeader from './Header'
 import UserDetails from './user/UserDetails'
+import MobileContainer from './mobileView/MobileContainer'
+import { WebView } from './user/WebView'
 
 function Dashboard() {
   return (
     <>
-        <Header />
-        <MainHeading />
-        <UserDetails />
+        
+        <NewHeader />
+        <MobileContainer />
+        <WebView />
     </>
   )
 }

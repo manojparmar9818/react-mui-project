@@ -33,6 +33,12 @@ const activityData = [
         link: 'Account Type',
         secondary: '6 October 11:46 AM',
     },
+    {
+        id: 6,
+        primary: 'Leslie Alexander updated her',
+        link: 'Account Type',
+        secondary: '6 October 11:46 AM',
+    },
 ]
 export const ActivityItems = () => {
     const [selectedIndex, setSelectedIndex] = useState(1);
@@ -46,6 +52,7 @@ export const ActivityItems = () => {
                 <ListItem 
                     key={item.id} 
                     alignItems="flex-start"
+                    sx={{position: 'relative', '&:before': {content: `""`, width: '1px', bgcolor: '#ddd', position: 'absolute', left: 20, bottom: 0, top: 0}, '&:last-of-type:before':{bottom: 30}, '&:first-of-type:before':{top: 30}}}
                 >
                     <ListItemAvatar>
                         <Avatar>

@@ -7,11 +7,11 @@ function BankAccount() {
     return (
         <ContentSection>
             <Title text="Bank Account" />
-            <Stack direction="row" justifyContent="space-between" spacing={3} sx={{ my: 1 }}>
+            <Stack direction={{xs: 'column', sm: 'column', md: 'column', lg: 'row'}} justifyContent="space-between" spacing={3} sx={{ my: 1 }}>
                 <Card
                     sx={{
                         boxShadow: 'none',
-                        width: '50%',
+                        width: '100%',
                         // maxWidth: 250
                     }}
                 >
@@ -30,7 +30,7 @@ function BankAccount() {
                     sx={{
                         boxShadow: 'none',
                         width: '100%',
-                        maxWidth: 250
+                        // maxWidth: 250
                     }}
                 >
                     <CardContent sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 1 }}>

@@ -47,8 +47,8 @@ function UserInputs() {
                 flexWrap: 'wrap',
                 gap: 3,
                 marginTop: '10px',
-                borderLeft: '1px solid #ddd',
-                paddingLeft: {xs: 0, sm: 0, md:'1rem', lg:'2rem'},    
+                borderLeft: {xs: 0, sm: 0, md: 0, lg: '1px solid #ddd'},
+                paddingLeft: {xs: 0, sm: 0, md: 0, lg:'2rem'},    
                 '& > div': {
                     flex: '40%'
                 },
